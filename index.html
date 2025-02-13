@@ -216,7 +216,7 @@
 
 </div>
                 `;
-                document.body.style.backgroundImage = "url(images/login.jpg)";
+                
                 shesaidyes();
                 setTimeout(() => {
                     const newAudio = document.getElementById('myAudio');
@@ -224,7 +224,9 @@
                         newAudio.play().catch(error => console.log('Autoplay blocked:', error));
                     }
                 }, 100);
+
             });
+            document.body.style.backgroundImage = "url(images/login.jpg)";
         }
         window.addEventListener('load', () => {
             const audio = document.getElementById('myAudio');
