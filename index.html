@@ -181,12 +181,12 @@
                 if (audio) {
                     audio.play().catch(error => console.log('Autoplay blocked:', error));
                 }
-                document.body.style.backgroundImage = "url(images/login.jpg)";
+                
             });
 
             document.querySelector('.js-no').addEventListener('click', ()=>{
                 
-                document.body.style.backgroundImage = "url(images/login.jpg)";
+                
 
                 document.querySelector(".js-body").innerHTML=`
               
@@ -216,6 +216,7 @@
 
 </div>
                 `;
+                document.body.style.backgroundImage = "url(images/login.jpg)";
                 shesaidyes();
                 setTimeout(() => {
                     const newAudio = document.getElementById('myAudio');
