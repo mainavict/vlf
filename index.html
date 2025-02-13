@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day  my love faith</title>
+    <style>
+    
+            @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Grechen+Fuemen&family=Lobster&family=Pacifico&family=Playwrite+IN:wght@100..400&family=Playwrite+VN:wght@100..400&family=Sofia&display=swap');
+        
+        body {
+            background-color: #ffdde1;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            background-image: url(V1.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            justify-content: center;
+        }
+        .container {
+            margin-top: 100px;
+            background-color: #1311126e;
+
+        }
+        .asking{
+            color: violet;
+            font-family: "Lobster", serif;
+            font-size: 4em;
+            
+        }
+        .heart {
+            color: red;
+            font-size: 50px;
+            animation: heartbeat 1s infinite;
+        }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.3); }
+            100% { transform: scale(1); }
+        }
+        .message {
+            font-size: 24px;
+            color: #d63384;
+            margin-top: 20px;
+        
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #ff4081;
+            border: none;
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #e91e63;
+        }
+        .cute-dolls {
+            margin-top: 20px;
+        }
+        .cute-dolls img {
+            width: 150px;
+            height: auto;
+            margin: 10px;
+        }
+        .shesaidyes-container{
+            font-family: "Lobster", serif;
+            font-size: 30px;
+            background-color: rgba(187, 13, 13, 0.384);
+            margin-left: 100px;
+            width: 80%;
+            margin-top: 100px;
+        }
+        .audio{
+            display: none;
+        }
+
+        @media screen and (max-width:1000px)
+
+       
+        {
+            body {
+                height: 100vh;
+            }
+            .container {
+                margin-top: 100px;
+                background-color: #1311126e;
+    
+            }
+            .asking{
+                color: violet;
+                font-family: "Lobster", serif;
+                font-size: 50px;
+                
+            }
+            .heart {
+                color: red;
+                font-size: 50px;
+                animation: heartbeat 1s infinite;
+            }
+            @keyframes heartbeat {
+                0% { transform: scale(1); }
+                50% { transform: scale(1.3); }
+                100% { transform: scale(1); }
+            }
+            .message {
+                font-size: 24px;
+                color: #d63384;
+                margin-top: 20px;
+            
+            }
+            button {
+                padding: 10px 20px;
+                font-size: 18px;
+                background-color: #ff4081;
+                border: none;
+                color: white;
+                border-radius: 10px;
+                cursor: pointer;
+                margin-top: 20px;
+
+            }
+            button:hover {
+                background-color: #e91e63;
+            }
+            .cute-dolls {
+                margin-top: 20px;
+            }
+            .shesaidyes-container{
+                font-family: "Lobster", serif;
+                font-size: 20px;
+                background-color: rgba(187, 13, 13, 0.384);
+                margin-left: 30px;
+                width: 80%;
+                margin-top: 100px;
+            }
+            .audio{
+                display: none;
+            }
+
+        }
+    </style>
+</head>
+<body class="js-body">
+    <div class="container">
+        <audio id="myAudio" class="audio" autoplay loop>
+            <source src="squid.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h1>Happy PRE-Valentine's Day, Faith Jepkor Mwangi! ❤️</h1>
+        <div class="heart">❤️</div>
+        <p class="message">You make my world brighter and my heart happier, Faith!</p>
+        <DIV>
+            <P class="asking">Will you me my valentines??<br>🥰🥰</P>
+        <button class="js-yes">YES</button>
+        <button class="js-no"> NO </button>
+        </DIV>
+       
+        <button onclick="showSurprise()">Click for a Surprise 💝</button>
+
+       
+    </div>
+
+    <script>
+
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                const audio = document.getElementById('myAudio');
+                audio.play().catch(error => console.log('Autoplay blocked:', error));
+            }, 1000); // Delay by 1 second
+        });
+
+        shesaidno();
+        function shesaidno(){
+            window.addEventListener('load', () => {
+                const audio = document.getElementById('myAudio');
+                if (audio) {
+                    audio.play().catch(error => console.log('Autoplay blocked:', error));
+                }
+            });
+            
+            document.querySelector('.js-no').addEventListener('click', ()=>{
+                document.body.style.backgroundImage = "url('login.jpg')";
+                
+
+                document.querySelector(".js-body").innerHTML=`
+              
+               <div class="shesaidyes-container">
+                        <audio id="myAudio" class="audio" autoplay loop>
+                            <source src="violin.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    <p>
+                        wow!!!!!!!!!!!!!!!!!!
+                        <br>
+                        wow!!!!!!!!!!!!!!!!!!
+                        <br>
+                        wow!!!!!!!!!!!!!!!!!!
+                        <br>
+                        woooi khai mwathani !!!!!!!!!!!!!
+
+                         weeelll weelll weelll i am  sory  this  option is not  valid😂😂😂😆😆😆😆😆😆😆😆😆
+                         whooops!!!!!!!!
+                         <br>
+                         remember  u are  mrs mwangi🙈🙈🥰🥰😘😘😘
+                         <br>
+                         check mate♟️♟️♟️♟️ my mate 😝😝see what is did there 
+                        <br>
+</P>
+<button  class="js-yes">yess my love🥰🥰❤️🙈</button>
+
+</div>
+                `;
+                shesaidyes();
+                setTimeout(() => {
+                    const newAudio = document.getElementById('myAudio');
+                    if (newAudio) {
+                        newAudio.play().catch(error => console.log('Autoplay blocked:', error));
+                    }
+                }, 100);
+            });
+        }
+        window.addEventListener('load', () => {
+            const audio = document.getElementById('myAudio');
+            if (audio) {
+                audio.play().catch(error => console.log('Autoplay blocked:', error));
+            }
+        });
+
+        shesaidyes();
+        function shesaidyes(){
+            window.addEventListener('load', () => {
+                const audio = document.getElementById('myAudio');
+                if (audio) {
+                    audio.play().catch(error => console.log('Autoplay blocked:', error));
+                }
+            });
+            
+            document.querySelector('.js-yes').addEventListener('click', ()=>{
+                document.querySelector(".js-body").innerHTML=`
+              
+               <div class="shesaidyes-container">
+                        <audio id="myAudio" class="audio" autoplay loop>
+                            <source src="song.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    <p>
+                    My Love  faith mwangi🥰🥰😘;
+                    <br>
+               
+
+From the moment I met you, my heart whispered that you were the one. And now,clicking YES has filled my soul with a joy I never knew possible.
+
+I cannot begin to express how much you mean to me. You are the light that brightens my darkest days, the melody in my heart, and the reason I believe in love. With you, every moment feels like a dream, and now that we’ve taken this step together, I can’t wait to create countless beautiful memories by your side.
+
+I promise to cherish and adore you, to stand by your side through every joy and challenge, and to love you more with each passing day. You are my greatest gift, my answered prayer, and my forever.
+
+Thank you for choosing me, for believing in us, and for making my heart the happiest it has ever been. I love you endlessly, and I cannot wait for our beautiful journey ahead.
+<br>
+Forever yours,
+<br>
+mr yours🙈❤️❤️🥰😘🤠🥸🥸
+
+</P>
+
+<button class="js-kalenjin">kalenjin love lettter🥰🥰❤️❤️😝😝</button>
+
+
+
+</div>
+                `;
+                kalenjin();
+                setTimeout(() => {
+                    const newAudio = document.getElementById('myAudio');
+                    if (newAudio) {
+                        newAudio.play().catch(error => console.log('Autoplay blocked:', error));
+                    }
+                }, 100);
+            });
+        }
+function showSurprise() {
+    alert("Faith Jepkor Mwangi, you're the best thing that ever happened to me! 💕");
+}
+
+
+function kalenjin(){
+    window.addEventListener('load', () => {
+        const audio = document.getElementById('myAudio');
+        if (audio) {
+            audio.play().catch(error => console.log('Autoplay blocked:', error));
+        }
+    });
+    
+    document.querySelector('.js-kalenjin').addEventListener('click', ()=>{
+        document.querySelector(".js-body").innerHTML=`
+      
+       <div class="shesaidyes-container">
+                <audio id="myAudio" class="audio" autoplay loop>
+                    <source src="song.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            <p>
+           Koong’asishek Faith Jepkorir Nenyu ❤️
+           <br>
+
+Faith nenyu,
+<br>
+
+Ngee kong’asis ak chemwet kityo ne ng’oli alak. Koitap konyun tugul ak kosir bik tugul, ingen ale untai kele neni eng’ kongoi ne boiboiyet nenyu.
+
+Ng’alek che untai ko ng’eten amu en kasit age tugul, nenyu ko kong’asis amu ko silet en metit ak siobor en sigisigi. Kibar maai ko ng’ali ne kikomut emoni, lakini nenyu ko notunyo ne kemwoeet en ng’alyet ne kakich ketyo amu ko boiboiyet nenyu ne kikomi ale kikimi sigisigi eng’ tugul.
+
+Ineu anyun eng’ somanet, eng’ matinye, ak eng’ ananai. Ing’am kele siranis nenyu ko chitugul ab kongoi nenyu ne kararan ak itestanyi.
+
+Kongoi mising amu ko nyon kasit nenyu en ananai. Ko nonye ko kong’asis kityo che kakoech amu en tugul.
+<br>
+
+Ngechenge ne ami, anyun yoton ❤️
+<br>
+
+With love,
+<br>
+mr yours🙈❤️❤️🥰😘🤠🥸🥸
+
+</P>
+<button  class="js-yes">back my love❤️❤️🥰</button>
+</div>
+        `;
+        shesaidyes();
+        setTimeout(() => {
+            const newAudio = document.getElementById('myAudio');
+            if (newAudio) {
+                newAudio.play().catch(error => console.log('Autoplay blocked:', error));
+            }
+        }, 100);
+    });
+}
+    </script>
+</body>
+</html>
