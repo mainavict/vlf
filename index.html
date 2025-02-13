@@ -272,11 +272,14 @@ mr yours🙈❤️❤️🥰😘🤠🥸🥸
 </P>
 
 <button class="js-kalenjin">kalenjin love lettter🥰🥰❤️❤️😝😝</button>
+<button class="js-back">back</button>
+
 
 
 
 </div>
                 `;
+                home();
                 kalenjin();
                 setTimeout(() => {
                     const newAudio = document.getElementById('myAudio');
@@ -289,6 +292,41 @@ mr yours🙈❤️❤️🥰😘🤠🥸🥸
 function showSurprise() {
     alert("Faith Jepkor Mwangi, you're the best thing that ever happened to me! 💕");
 }
+
+
+home();
+
+function home(){
+    document.querySelector(".js-back").addEventListener("click" ,()=>{
+
+        document.querySelector(".js-body").innerHTML=`
+        <div class="container ">
+        <audio id="myAudio" class="audio" autoplay loop>
+            <source src="squid.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h1>Happy PRE-Valentine's Day, Faith Jepkor Mwangi! ❤️</h1>
+        <div class="heart">❤️</div>
+        <p class="message">You make my world brighter and my heart happier, Faith!</p>
+        <DIV>
+            <P class="asking">Will you me my valentines??<br>🥰🥰</P>
+        <button class="js-yes">YES</button>
+        <button class="js-no"> NO </button>
+        </DIV>
+       
+        <button onclick="showSurprise()">Click for a Surprise 💝</button>
+
+       
+    </div>
+        `;
+
+        shesaidyes();
+        shesaidno();
+        
+    })
+}
+
 
 
 function kalenjin(){
